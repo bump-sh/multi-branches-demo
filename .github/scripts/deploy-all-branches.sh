@@ -19,5 +19,5 @@ for api in doc/*/openapi.{yml,yaml,json}; do
     branchName=$(basename "$(dirname "$api")")
     echo "Deploying ${api} on branch ${branchName}"
 
-    bump deploy --doc "${docId}" --token "${!apiKey}" --branch "${branchName}" "${api}"
+    bump deploy --doc "${!docId}" --token "${!apiKey}" --branch "${branchName}" "${api}"
 done
