@@ -1,8 +1,8 @@
 openapi: "3.1.0"
 info:
-  title: Bump.sh Api - branch V1
+  title: Bump.sh Api - branch V4
   description: |
-    This is the official Bump.sh API documentation, on branch v1.
+    This is the official Bump.sh API documentation, on branch v4.
     Obviously created with Bump.sh.
 
     The Bump.sh API is a REST API. It enables you to [create, update](#operation-post-versions)
@@ -13,7 +13,7 @@ info:
 
     Our [webhook](#webhook-documentation-change) also lets you get
     notifications every time a change is introduced in your API.
-  version: "v1"
+  version: "v4"
 servers:
   - url: https://bump.sh/api/v1
 x-topics:

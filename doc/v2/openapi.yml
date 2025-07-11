@@ -1,6 +1,6 @@
 openapi: "3.1.0"
 info:
-  title: Bump.sh Api - branch V1
+  title: Bump.sh Api - branch V2
   description: |
     This is the official Bump.sh API documentation, on branch v2.
     Obviously created with Bump.sh.
@@ -13,7 +13,7 @@ info:
 
     Our [webhook](#webhook-documentation-change) also lets you get
     notifications every time a change is introduced in your API.
-  version: "1.0"
+  version: "v2"
 servers:
   - url: https://bump.sh/api/v1
 x-topics:
