@@ -1,8 +1,8 @@
 openapi: "3.1.0"
 info:
-  title: Bump.sh Api - branch V3
+  title: Bump.sh Api - branch main (for demo)
   description: |
-    This is the official Bump.sh API documentation, on branch v3.
+    This is the official Bump.sh API documentation, on branch main.
     Obviously created with Bump.sh.
 
     The Bump.sh API is a REST API. It enables you to [create, update](#operation-post-versions)

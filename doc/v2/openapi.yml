@@ -1,6 +1,6 @@
 openapi: "3.1.0"
 info:
-  title: Bump.sh Api
+  title: Bump.sh Api - branch V1
   description: |
     This is the official Bump.sh API documentation, on branch v2.
     Obviously created with Bump.sh.
