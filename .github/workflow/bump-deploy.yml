@@ -1,0 +1,21 @@
+name: Deploy documentation on given branches
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy-doc:
+    runs-on: ubuntu-latest
+    name: Deploy API documentations on Bump.sh
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: ./.github/scripts/deploy-all-branches.sh
+        env:
+          BUMP_TOKEN: ${{ secrets.BUMP_TOKEN }}
+          BUMP_DOC_ID: ${{ secrets.BUMP_DOC_ID }}
