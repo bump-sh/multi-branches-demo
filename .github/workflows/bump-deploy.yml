@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Make the script files executable
+        run: chmod +x ./.github/scripts/deploy-all-branches.sh
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
